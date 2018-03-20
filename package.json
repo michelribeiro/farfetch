@@ -57,7 +57,8 @@
   },
   "devDependencies": {
     "node-sass": "^4.7.2",
-    "sass-loader": "^6.0.7"
+    "sass-loader": "^6.0.7",
+    "svg-inline-loader": "^0.8.0"
   },
   "jest": {
     "collectCoverageFrom": [

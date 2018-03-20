@@ -108,6 +108,10 @@ module.exports = {
       // First, run the linter.
       // It's important to do this before Babel processes the JS.
       {
+        test: /\.svg$/,
+        loader: "svg-inline-loader"
+      },
+      {
         test: /\.(js|jsx|mjs)$/,
         enforce: 'pre',
         use: [
